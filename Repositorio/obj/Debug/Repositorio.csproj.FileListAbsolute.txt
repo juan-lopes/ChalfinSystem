@@ -1,0 +1,15 @@
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Dominio.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Dominio.pdb
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\Dominio.dll.config
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Repositorio\obj\Debug\Repositorio.pdb

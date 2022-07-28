@@ -1,0 +1,12 @@
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\Dominio.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\Dominio.pdb
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\obj\Debug\Dominio.dll
+C:\Users\juanf\Desktop\Chalfin-System\ChalfinSystem\Dominio\obj\Debug\Dominio.pdb
