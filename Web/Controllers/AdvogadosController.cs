@@ -9,7 +9,7 @@ namespace Web.Controllers
 {
     public class AdvogadosController : Controller
     {
-        private readonly AdvogadoRepositorio _advogadoRepositorio = new AdvogadoRepositorio();
+        private readonly AdvogadoRepositorio<Advogado> _advogadoRepositorio = new AdvogadoRepositorio<Advogado>();
 
         // GET: Advogados
         public ActionResult Index()

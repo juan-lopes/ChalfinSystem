@@ -52,10 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementacao\Advogado\AdvogadoRepositorio.cs" />
-    <Compile Include="Implementacao\BaseRepositorio.cs" />
     <Compile Include="Implementacao\Contexto\Context.cs" />
     <Compile Include="Interfaces\IAdvogadoRepositorio.cs" />
-    <Compile Include="Interfaces\IBaseRepositorio.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
