@@ -5,6 +5,9 @@ Simple CRUD in:
 
 Using:
 >Entity Framework
+
 >AutoMapper
+
 >Ninject
+
 >IoC
