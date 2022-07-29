@@ -5,11 +5,11 @@ namespace Repositorio.Interfaces
 {
     public interface IAdvogadoRepositorio<Advogado> where Advogado : class
     {
-        void Add(Advogado obj);
-        Advogado GetById(int id);
-        IEnumerable<Advogado> GetAll();
-        void Update(Advogado obj);
-        void Remove(Advogado obj);
+        void AdicionarAdvogado(Advogado obj);
+        Advogado SelecionarAdvogado(int id);
+        IEnumerable<Advogado> ListarAdvogados();
+        void AtualizarAdvogado(Advogado obj);
+        void ExcluirAdvogado(Advogado obj);
         void Dispose();
     }
 }

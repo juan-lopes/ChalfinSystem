@@ -14,14 +14,14 @@ namespace Web.Controllers
         // GET: Advogados
         public ActionResult Index()
         {
-            var advogadoViewModel = Mapper.Map<IEnumerable<Advogado>, IEnumerable<AdvogadoViewModel>>(_advogadoRepositorio.GetAll());
+            var advogadoViewModel = Mapper.Map<IEnumerable<Advogado>, IEnumerable<AdvogadoViewModel>>(_advogadoRepositorio.ListarAdvogados());
             return View(advogadoViewModel);
         }
 
         // GET: Advogados/Details/5
         public ActionResult Details(int id)
         {
-            var advogado = _advogadoRepositorio.GetById(id);
+            var advogado = _advogadoRepositorio.SelecionarAdvogado(id);
             var advogadoViewModel = Mapper.Map<Advogado, AdvogadoViewModel>(advogado);
             return View(advogadoViewModel);
         }
@@ -39,7 +39,7 @@ namespace Web.Controllers
             if(ModelState.IsValid)
             {
                 var advogadoDomain = Mapper.Map<AdvogadoViewModel, Advogado>(advogado);
-                _advogadoRepositorio.Add(advogadoDomain);
+                _advogadoRepositorio.AdicionarAdvogado(advogadoDomain);
 
                 return RedirectToAction("Index");
             }
@@ -49,7 +49,7 @@ namespace Web.Controllers
         // GET: Advogados/Edit/5
         public ActionResult Edit(int id)
         {
-            var advogado = _advogadoRepositorio.GetById(id);
+            var advogado = _advogadoRepositorio.SelecionarAdvogado(id);
             var advogadoViewModel = Mapper.Map<Advogado, AdvogadoViewModel>(advogado);
             return View(advogadoViewModel);
         }
@@ -61,7 +61,7 @@ namespace Web.Controllers
             if (ModelState.IsValid)
             {
                 var advogadoDomain = Mapper.Map<AdvogadoViewModel, Advogado>(advogado);
-                _advogadoRepositorio.Update(advogadoDomain);
+                _advogadoRepositorio.AtualizarAdvogado(advogadoDomain);
 
                 return RedirectToAction("Index");
             }
@@ -71,7 +71,7 @@ namespace Web.Controllers
         // GET: Advogados/Delete/5
         public ActionResult Delete(int id)
         {
-            var advogado = _advogadoRepositorio.GetById(id);
+            var advogado = _advogadoRepositorio.SelecionarAdvogado(id);
             var advogadoViewModel = Mapper.Map<Advogado, AdvogadoViewModel>(advogado);
             return View(advogadoViewModel);
         }
@@ -80,8 +80,8 @@ namespace Web.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            var advogado = _advogadoRepositorio.GetById(id);
-            _advogadoRepositorio.Remove(advogado);
+            var advogado = _advogadoRepositorio.SelecionarAdvogado(id);
+            _advogadoRepositorio.ExcluirAdvogado(advogado);
 
             return RedirectToAction("Index");
         }

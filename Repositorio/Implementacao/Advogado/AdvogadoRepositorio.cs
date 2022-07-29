@@ -12,28 +12,28 @@ namespace Repositorio.Implementacao.Advogado
     {
         protected Context Db = new Context();
 
-        public void Add(Advogado obj)
+        public void AdicionarAdvogado(Advogado obj)
         {
             Db.Set<Advogado>().Add(obj);
             Db.SaveChanges();
         }
-        public Advogado GetById(int id)
+        public Advogado SelecionarAdvogado(int id)
         {
             return Db.Set<Advogado>().Find(id);
         }
 
-        public IEnumerable<Advogado> GetAll()
+        public IEnumerable<Advogado> ListarAdvogados()
         {
             return Db.Set<Advogado>().ToList();
         }
 
-        public void Update(Advogado obj)
+        public void AtualizarAdvogado(Advogado obj)
         {
             Db.Entry(obj).State = EntityState.Modified;
             Db.SaveChanges();
         }
 
-        public void Remove(Advogado obj)
+        public void ExcluirAdvogado(Advogado obj)
         {
             Db.Set<Advogado>().Remove(obj);
             Db.SaveChanges();
